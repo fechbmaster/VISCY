@@ -1,0 +1,27 @@
+Eingang:
+
+clk: Clock
+reset: instruction to reset
+
+ir: InstructionRegister
+
+ready: Statussignal 
+zero: Statussignal
+
+Ausgang:
+
+c_reg_ldmem: load from memory 
+c_reg_ldi: load instruction
+
+c_regfile_load_lo: load lower bit into regfile
+c_regfile_load_hi: load higher bit into regfile
+
+c_pc_load: load program counter
+c_pc_inc: increment program counter
+
+c_ir_load: load instruction register
+
+c_mem_rd: singal for memory access
+c_mem_wr: singal for memory access
+
+c_adr_pc_not_reg: Auswahl Adress Quelle
